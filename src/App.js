@@ -16,7 +16,7 @@ import './App.css';
 
 function App() {
 
-  // Desctructuring Arrays
+  // Destructuring Arrays
 
   function calculate(a,b) {
     const add =  a + b
@@ -29,6 +29,7 @@ function App() {
 
   const [add, subtract,, divide] = calculate(5,5)
 
+  // When desctructuring arrays, the order that variables are declared is important:
   const [,,multiply,] = calculate(2,2)
 
 
